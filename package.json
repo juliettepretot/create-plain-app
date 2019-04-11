@@ -1,0 +1,19 @@
+{
+  "name": "create-plain-app",
+  "version": "0.0.1",
+  "description": "Tiny boilerplate to build a web app without a build-step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://laurajuliette@github.com/juliettepretot/create-plain-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliettepretot/create-plain-app/issues"
+  },
+  "homepage": "https://github.com/juliettepretot/create-plain-app#readme"
+}
