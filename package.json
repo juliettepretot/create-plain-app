@@ -1,6 +1,6 @@
 {
   "name": "create-plain-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tiny boilerplate to build a web app without a build-step",
   "main": "index.js",
   "bin": {
