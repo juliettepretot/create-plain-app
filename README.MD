@@ -8,6 +8,10 @@ cd my-app
 npm start
 ```
 
+## Roadmap
+
+I plan to add an optional feature to bundle code prior to publication. This wouldn't involve any transpiling and is meant purely as a performance optimization to reduce the number of network requests.
+
 ## Acknowledgements
 
 A special thank you goes to [Luke Jackson](https://github.com/lukejacksonn) for authoring [servor](https://github.com/lukejacksonn/servor), the static file server used by this project.
