@@ -3,17 +3,30 @@
   "version": "0.0.1",
   "description": "Tiny boilerplate to build a web app without a build-step",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "create-plain-app": "./index.js"
   },
+  "keywords": [
+    "plain app",
+    "HTML5",
+    "static"
+  ],
+  "maintainers": [
+    {
+      "name": "Juliette Pretot",
+      "email": "hi@juliette.sh",
+      "web": "https://juliette.sh"
+    }
+  ],
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://laurajuliette@github.com/juliettepretot/create-plain-app.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/juliettepretot/create-plain-app/issues"
-  },
-  "homepage": "https://github.com/juliettepretot/create-plain-app#readme"
+  }
 }
