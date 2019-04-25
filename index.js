@@ -42,10 +42,6 @@ body {
   align-items: center;
 }`
 
-const GITIGNORE = `# Dependency directories
-node_modules/
-`
-
 function generatePackageDotJson(name) {
   return `{
   "name": "${name}",
@@ -88,7 +84,6 @@ async function createPlainApp(name) {
     await Promise.all([
       writeFile(`${projectDir}/index.html`, HTML),
       writeFile(`${projectDir}/main.css`, CSS),
-      writeFile(`${projectDir}/.gitignore`, GITIGNORE),
       writeFile(`${projectDir}/package.json`, generatePackageDotJson(name))
     ])
     console.log(generateSuccessMessage(name))
